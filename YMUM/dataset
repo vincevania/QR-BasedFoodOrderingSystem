@@ -1,0 +1,35 @@
+category,item_name,description,price
+Appetizers,Veg Spring Rolls,Crispy fried rolls stuffed with mixed vegetables,120
+Appetizers,Chicken Lollipop,Spicy chicken wings marinated in a tangy sauce,150
+Appetizers,Cheese Garlic Bread,Toasted bread slices topped with melted cheese and garlic butter,100
+Appetizers,Potato Wedges,Deep fried potato wedges seasoned with salt and pepper,80
+Soups,Tomato Soup,Fresh tomato soup garnished with cream and croutons,90
+Soups,Hot and Sour Soup,A spicy and sour soup with vegetables and tofu,110
+Soups,Chicken Noodle Soup,A hearty soup with chicken, noodles and vegetables,130
+Soups,Mushroom Soup,A creamy soup with fresh mushrooms and herbs,100
+Salads,Greek Salad,A refreshing salad with lettuce, tomatoes, cucumbers, olives, feta cheese and dressing,150
+Salads,Caesar Salad,A classic salad with romaine lettuce, croutons, parmesan cheese and caesar dressing,160
+Salads,Chicken Salad,A delicious salad with grilled chicken, lettuce, carrots, corn and dressing,180
+Salads,Fruit Salad,A colorful salad with assorted fruits and honey,120
+Main Course,Veg Biryani,A fragrant rice dish cooked with vegetables and spices,200
+Main Course,Chicken Biryani,A flavorful rice dish cooked with chicken and spices,250
+Main Course,Paneer Butter Masala,A rich and creamy curry with cottage cheese and butter,220
+Main Course,Butter Chicken,A popular and creamy curry with chicken and butter,260
+Main Course,Veg Pizza,A thin crust pizza with cheese and vegetable toppings,300
+Main Course,Chicken Pizza,A thin crust pizza with cheese and chicken toppings,350
+Main Course,Veg Noodles,A stir fried noodle dish with vegetables and soy sauce,180
+Main Course,Chicken Noodles,A stir fried noodle dish with chicken and soy sauce,200
+Main Course,Veg Burger,A tasty burger with a vegetable patty, lettuce, tomato and cheese,150
+Main Course,Chicken Burger,A juicy burger with a chicken patty, lettuce, tomato and cheese,180
+Desserts,Chocolate Cake,A moist and decadent chocolate cake with frosting,150
+Desserts,Carrot Cake,A moist and delicious carrot cake with cream cheese frosting,140
+Desserts,Ice Cream,A scoop of your choice of ice cream flavor,80
+Desserts,Gulab Jamun,A traditional Indian dessert of deep fried balls soaked in sugar syrup,100
+Desserts,Brownie,A chewy and fudgy chocolate brownie,120
+Desserts,Rasgulla,A traditional Indian dessert of soft cheese balls soaked in sugar syrup,100
+Beverages,Water,A bottle of mineral water,20
+Beverages,Tea,A hot cup of tea with milk and sugar,30
+Beverages,Coffee,A hot cup of coffee with milk and sugar,40
+Beverages,Juice,A glass of fresh juice of your choice of fruit,80
+Beverages,Cola,A can of chilled cola,50
+Beverages,Beer,A bottle of chilled beer,100
