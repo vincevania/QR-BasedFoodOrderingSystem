@@ -10,7 +10,7 @@ function CustomerInterface() {
             <div>
               <NavBar />
             </div>
-            <div className="text-4xl md:text-6xl lg:text-8xl xl:text-9xl " style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh', fontFamily: 'Poppins, sans-serif'}}>
+            <div className="text-4xl md:text-6xl lg:text-7xl xl:text-9xl " style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh', fontFamily: 'Poppins, sans-serif'}}>
                 <span >Welcome to Ymum!</span>  
             </div>
         </div>

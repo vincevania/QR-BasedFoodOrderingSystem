@@ -30,24 +30,35 @@ function Category() {
     }
   };
 
-  const categoryImages = [bevaCate, breakfastCate, indianCate, chineseCate, dinnerCate, fastFoodCate];
+  const categoryImages = [
+    { src: bevaCate, text: 'Beverages' },
+    { src: breakfastCate, text: 'Breakfast' },
+    { src: indianCate, text: 'Indian' },
+    { src: chineseCate, text: 'Chinese' },
+    { src: dinnerCate, text: 'Dinner' },
+    { src: fastFoodCate, text: 'Fast Food' },
+  ];
 
   return (
-    <Container style={{}}>
+    <Container>
       <Carousel
         responsive={responsive}
-        partialVisible={true}
         infinite={true}
         removeArrowOnDeviceType={["mobile"]}
+        itemClass=''
       >
-        {categoryImages.map((cateImg, index) => (
-          <Image
-            key={index}
-            src={cateImg}
-            alt={`Image ${index + 1}`}
-            roundedCircle
-            style={{ width: '70px', height: '70px'}}
-          />
+        {categoryImages.map((item, index) => (
+          <div className=''>
+          <div key={index} className="flex flex-col text-center justify-center items-center mt-4">
+            <Image
+              src={item.src}
+              alt={`Image ${index + 1}`}
+              roundedCircle
+              style={{width: '5rem', height: '5rem'}}
+            />
+            <div>{item.text}</div>
+          </div>
+          </div>
         ))}
       </Carousel>
     </Container>
