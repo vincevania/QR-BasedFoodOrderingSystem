@@ -22,11 +22,11 @@ function Category() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3
+      items: 4
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2
+      items: 3
     }
   };
 
@@ -40,6 +40,7 @@ function Category() {
   ];
 
   return (
+    <>
     <Container>
       <Carousel
         responsive={responsive}
@@ -48,18 +49,19 @@ function Category() {
         itemClass=''
       >
         {categoryImages.map((item, index) => (
-          <div key={index} className="flex flex-col text-center justify-center items-center mt-4">
+          <div key={index} className="flex flex-col text-center justify-center items-center mt-4 mb-4">
             <Image
               src={item.src}
               alt={`Image ${index + 1}`}
               roundedCircle
-              style={{width: '5rem', height: '5rem'}}
+              style={{width: '4rem', height: '4rem'}}
             />
             <div>{item.text}</div>
           </div>
         ))}
       </Carousel>
     </Container>
+  </>
   );
 }
 

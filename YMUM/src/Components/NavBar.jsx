@@ -9,11 +9,11 @@ function NavBar() {
       <Navbar>
         <Container>
           <Nav className="mx-auto">
-            <Nav.Link href="#home" style={{ marginLeft: '20px', fontFamily: 'Lato, sans-serif', fontSize: '1.25rem', textDecoration: 'none', color: '#fff' }}>Menu</Nav.Link>
-            <Nav.Link href="#article" style={{ marginLeft: '20px', fontFamily: 'Lato, sans-serif', fontSize: '1.25rem', textDecoration: 'none', color: '#fff' }}>Article</Nav.Link>
-            <Nav.Link href="#contact" style={{ marginLeft: '20px', fontFamily: 'Lato, sans-serif', fontSize: '1.25rem', textDecoration: 'none', color: '#fff' }}>Connect</Nav.Link>
-            <Nav.Link href="#offers" style={{ marginLeft: '20px', fontFamily: 'Lato, sans-serif', fontSize: '1.25rem', textDecoration: 'none', color: '#fff' }}>Offers</Nav.Link>
-            <Nav.Link href="#Admin" style={{ marginLeft: '20px', fontFamily: 'Lato, sans-serif', fontSize: '1.25rem', textDecoration: 'none', color: '#fff' }}>Admin</Nav.Link>
+            <Nav.Link href="#home" style={{display:'flex', justifyContent:'center', fontFamily: 'Lato, sans-serif', fontSize: '1rem', textDecoration: 'none', color: '#fff' }}>Menu</Nav.Link>
+            <Nav.Link href="#article" style={{display:'flex', justifyContent:'center', marginLeft: '0.2rem', fontFamily: 'Lato, sans-serif', fontSize: '1rem', textDecoration: 'none', color: '#fff' }}>Article</Nav.Link>
+            <Nav.Link href="#contact" style={{display:'flex', justifyContent:'center', marginLeft: '0.2rem', fontFamily: 'Lato, sans-serif', fontSize: '1rem', textDecoration: 'none', color: '#fff' }}>Connect</Nav.Link>
+            <Nav.Link href="#offers" style={{display:'flex', justifyContent:'center', marginLeft: '0.2rem', fontFamily: 'Lato, sans-serif', fontSize: '1rem', textDecoration: 'none', color: '#fff' }}>Offers</Nav.Link>
+            <Nav.Link href="#Admin" style={{display:'flex', justifyContent:'center', marginLeft: '0.2rem', fontFamily: 'Lato, sans-serif', fontSize: '1rem', textDecoration: 'none', color: '#fff' }}>Admin</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

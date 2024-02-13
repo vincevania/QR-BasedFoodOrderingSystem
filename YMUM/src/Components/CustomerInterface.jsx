@@ -16,6 +16,7 @@ function CustomerInterface() {
             </div>
         </div>
         <Category />
+        <BodyItems />
     </>
   )
 }
