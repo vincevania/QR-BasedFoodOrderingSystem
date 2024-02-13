@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar';
 import Category from './Category';
+import BodyItems from './BodyItems';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function CustomerInterface() {

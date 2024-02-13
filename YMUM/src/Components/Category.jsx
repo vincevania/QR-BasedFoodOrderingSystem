@@ -48,7 +48,6 @@ function Category() {
         itemClass=''
       >
         {categoryImages.map((item, index) => (
-          <div className=''>
           <div key={index} className="flex flex-col text-center justify-center items-center mt-4">
             <Image
               src={item.src}
@@ -57,7 +56,6 @@ function Category() {
               style={{width: '5rem', height: '5rem'}}
             />
             <div>{item.text}</div>
-          </div>
           </div>
         ))}
       </Carousel>
