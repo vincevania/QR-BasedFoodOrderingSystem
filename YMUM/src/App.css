@@ -5,4 +5,11 @@
     width: auto;
     height: 100vh; 
 }
+.custom-pagination .page-link{
+    color: #FC6A03;
+}
+.custom-pagination .page-link:hover{
+    color: #e25e00;
+}
+
 
