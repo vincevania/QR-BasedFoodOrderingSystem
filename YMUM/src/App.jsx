@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import AdminInterface from './Components/AdminInterface';
-import CustomerInterface from './Components/CustomerInterface';
+import AdminInterface from './Components/AdminInterface/AdminInterface';
+import CustomerInterface from './Components/CustomerInterface/CustomerInterface';
 
 function App() {
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Image } from 'react-bootstrap';
-import bevaCate from '../assets/bevaragesCate.jpg';
-import breakfastCate from '../assets/breakfastCate.jpg';
-import indianCate from '../assets/indianCate.jpg';
-import chineseCate from '../assets/chineseCate.jpg';
-import dinnerCate from '../assets/dinnerCate.jpg';
-import fastFoodCate from '../assets/fastFoodCate.jpg';
+import bevaCate from '../../assets/bevaragesCate.jpg';
+import breakfastCate from '../../assets/breakfastCate.jpg';
+import indianCate from '../../assets/indianCate.jpg';
+import chineseCate from '../../assets/chineseCate.jpg';
+import dinnerCate from '../../assets/dinnerCate.jpg';
+import fastFoodCate from '../../assets/fastFoodCate.jpg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
